@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: #2B3538;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li{
+    margin: 0;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#Topbar ul li:hover{
+    background-color: orange;
+}
+
+#Topbar ul li{
+    padding: 5px 7px;
+}
+
+#selectionbar ul{
+    background-color: #05090A;
+}
+
+#selectionbar ul li{
+    float: left;
+}
+
+#selectionbar ul li:hover{
+    text-decoration: underline;
+}
+
+/* Optionsection css */
+
+#Section_2{
+    display: none;
+}
+
+.optionsection {
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+}
+
+.sectionpart {
+    float: left;
+    display: block;
+    margin: 0;
+    height: 200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 30%;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+/* End of Optionsection */
+
+.float-left {
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.active {
+    background-color: orange;
+}
+
+.passiv {
+    background-color: black;
+}

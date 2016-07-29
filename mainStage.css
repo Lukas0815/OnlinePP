@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#showpanel{
+    display: block;
+    position: relative;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: 400px;
+    background-color: blue;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#prevPanelContainer div{
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    margin: 5px;
+    float: left;
+    overflow: hidden;
+}
+
+#prevPanelContainer .normal{
+    margin: 5px;
+    padding: 0;
+    border: 2px solid black;
+}
+
+#prevPanelContainer .current{
+    margin: 5px;
+    padding: 0;
+    border: 2px solid blue;
+}

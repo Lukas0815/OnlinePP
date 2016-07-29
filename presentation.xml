@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Presentation>
+    <General>
+        <currentSlide>1</currentSlide>
+        <totalSlides>4</totalSlides>
+    </General>
+
+    <slide id="1">
+        <div class="innerStuff">
+            <p>What is this?</p>
+            <p>Ähm OK</p>
+        </div>
+    </slide>
+
+    <slide id="2">
+        <div class="innerStuff">
+            <p>Das ist doch nicht true</p>
+            <p>Echt jetzt</p>
+        </div>
+
+        <css>
+            background-color: red;
+        </css>
+    </slide>
+
+    <slide id="3">
+        <div class="innerStuff">
+            <p>Wi geil ist das denn?</p>
+            <p>Ist halt so</p>
+        </div>
+
+        <css>
+            background-color: yellow;
+        </css>
+    </slide>
+
+    <slide id="4">
+        <div class="innerStuff">
+        </div>
+    </slide>
+</Presentation>
